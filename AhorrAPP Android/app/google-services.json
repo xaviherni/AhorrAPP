@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602753827506",
+    "project_id": "ahorrapp-63960",
+    "storage_bucket": "ahorrapp-63960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602753827506:android:195237428d6568fd6a3fab",
+        "android_client_info": {
+          "package_name": "com.example.ahorrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602753827506-gj39pgf6ljllu16ca2lbkmk6ht89np24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkpcQ5VyAmz2haTs1G_yThBDd5xp-ZpTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602753827506-gj39pgf6ljllu16ca2lbkmk6ht89np24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

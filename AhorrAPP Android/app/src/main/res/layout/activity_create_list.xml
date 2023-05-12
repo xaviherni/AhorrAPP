@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateList">
+
+    <include
+        layout="@layout/toolbar_theme"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/select_here_the_products_to_buy"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProductos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textSize="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_your_list"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnGenerarRuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_route"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Prueba"
+    android:orientation="horizontal"
+    android:padding="25dp">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProducto"
+        android:text="Prueba"
+        android:layout_weight="1"
+        android:textSize="12pt">
+
+    </TextView>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrecio"
+        android:text="12"
+        android:textSize="14pt">
+
+    </TextView>
+</LinearLayout>
